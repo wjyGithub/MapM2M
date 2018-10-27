@@ -12,7 +12,7 @@
   
   在springboot里面进行使用时,需要进行配置  
   
-  @Configuration
+  @Configuration  
   public class config {  
       @Bean  
       public MapF2FInterceptor getMapF2FInterceptor(){    
