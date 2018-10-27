@@ -1,6 +1,6 @@
 package MapM2M.annotation;
 
-import MapM2M.VALUE;
+import MapM2M.constant.VALUE;
 
 import java.lang.annotation.*;
 

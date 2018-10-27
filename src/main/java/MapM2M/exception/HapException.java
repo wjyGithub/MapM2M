@@ -1,8 +1,6 @@
 package MapM2M.exception;
 
-/**
- * Created by jiatong.li on 3/23/17.
- */
+
 public class HapException extends RuntimeException {
 
     private final transient Object[] parameters;

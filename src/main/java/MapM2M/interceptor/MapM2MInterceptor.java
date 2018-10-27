@@ -1,7 +1,7 @@
 package MapM2M.interceptor;
 
 
-import MapM2M.VALUE;
+import MapM2M.constant.VALUE;
 import MapM2M.exception.HapException;
 import MapM2M.util.ReflectUtil;
 import javafx.util.Pair;

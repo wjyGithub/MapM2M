@@ -1,4 +1,4 @@
-package MapM2M;
+package MapM2M.constant;
 
 /**
  * @author jianyuan.wei@hand-china.com
