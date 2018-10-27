@@ -28,5 +28,4 @@ public class ReflectUtil {
         return metaStatementHandler;
     }
 
-    public void test(){}
 }
