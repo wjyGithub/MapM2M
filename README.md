@@ -9,3 +9,13 @@
  用法:  
   @MapM2M(deep=VALUE.SECOND)  
   Map<String,Map<String,String>> queryMapTest();
+  
+  在springboot里面进行使用时,需要进行配置  
+  
+  @Configuration
+  public class config {  
+      @Bean  
+      public MapF2FInterceptor getMapF2FInterceptor(){  
+          return new MapF2FInterceptor();  
+      }  
+  }  
