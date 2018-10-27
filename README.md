@@ -15,7 +15,7 @@
   @Configuration
   public class config {  
       @Bean  
-      public MapF2FInterceptor getMapF2FInterceptor(){  
-          return new MapF2FInterceptor();  
-      }  
+      public MapF2FInterceptor getMapF2FInterceptor(){    
+                return new MapF2FInterceptor();  
+        }  
   }  
