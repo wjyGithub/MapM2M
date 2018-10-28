@@ -6,16 +6,18 @@
 共有两种返回方式：  
   1.Map<xx,xxx>  
   2.Map<xx,Map<xxx,xxx>>  
- 用法:  
+ 用法: 
+```
   @MapM2M(deep=VALUE.SECOND)  
   Map<String,Map<String,String>> queryMapTest();
-  
+```
   在springboot里面进行使用时,需要进行配置  
-  
+```  
   @Configuration  
   public class config {  
       @Bean  
       public MapM2MInterceptor getMapM2MInterceptor(){    
                 return new MapF2FInterceptor();  
         }  
-  }  
+  } 
+```
