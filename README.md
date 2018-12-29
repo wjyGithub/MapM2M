@@ -8,8 +8,25 @@
   2.Map<xx,Map<xxx,xxx>>  
  用法: 
 ```
+假设queryMapTest查询的结果为:
+    ID   name   age 
+    1    wjy1   21  
+    2    wiy2   22  
+    
   @MapM2M(deep=VALUE.SECOND)  
   Map<String,Map<String,String>> queryMapTest();
+  返回结果:
+  Map:
+  {1,{wjy1,21}}
+  {2,{wjy2,22}}
+  即：
+   Map returnMap = new HashMap<>();
+   Map firstRecord = new HashMap<>();
+   firstRecord.put("wjy1",21);
+   returnMap.put(1,firstRecord);
+   Map secondRecord = new HashMap<>();
+   secondRecord.put("wjy2",22);
+   returnMap.put(2,secondRecord);   
 ```
   在springboot里面进行使用时,需要进行配置  
 ```  
